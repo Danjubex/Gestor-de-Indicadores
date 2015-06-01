@@ -30,7 +30,8 @@ public class Usuario {
     int celular;
     String email;
     String cargo;
-
+    String senha;
+    
     public Long getId() {
         return id;
     }
@@ -45,6 +46,10 @@ public class Usuario {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public String getSenha() {
+        return senha;
     }
 
     public String getSetor() {
